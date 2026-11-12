@@ -46,7 +46,7 @@ if not api_key:
     sys.exit(1)
 
 client = genai.Client(api_key=api_key)
-MODEL = "text-embedding-004"
+MODEL = "gemini-embedding-001"
 
 
 # =================================================================================
